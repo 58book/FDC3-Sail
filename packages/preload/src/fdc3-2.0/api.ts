@@ -3,6 +3,7 @@ import { MessagingSupport, SendMessage } from '../message';
 import { createAPI as createAPI1_2 } from '../fdc3-1.2/api';
 import { createDesktopAgentInstance } from './desktop-agent';
 
+console.log('Creating API');
 export function createAPI(
   sendMessage: SendMessage,
   ipc: MessagingSupport,
