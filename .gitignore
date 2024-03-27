@@ -5,3 +5,5 @@ dist
 thumbs.db
 .eslintcache
 packages/preload/exposedInMainWorld.d.ts
+package.json
+package-lock.json
